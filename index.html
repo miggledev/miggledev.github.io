@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miggle | Thinking out of paper</title>
+    <link rel="stylesheet" href="./src/styles.css">
+</head>
+<body>
+    <script src="./src/script.js"></script>
+    <div class="navbar">
+        <div class="navbar__logo">
+            <img src="./src/assets/logo.png" alt="Miggle Logo" width="50" height="50">
+        </div>
+        <div class="navbar__links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#products">Products</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+    <header class="hero">
+        <div class="hero__content">
+            <h1>Welcome to Miggle</h1>
+            <p class="slogan">Thinking out of paper</p>
+            <a href="#products" class="btn">Explore Products</a>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./src/assets/light.jpg" alt="The Miggle Light" class="card__image">
+                    <div class="card__content">
+                        <h2>The Miggle Light🌿</h2>
+                        <p>Meet the handmade, eco-friendly smart notebook case designed for analog lovers.</p>
+                        <p>It is made of 100% recycled cardboard and is fully customizable.</p>
+                        <button onclick="toLink_l()">Learn More</button>
+                        <p class="slogan">(the website is not active)</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./src/assets/digicup.png" alt="Miggle DigiCup logo" class="card__image">
+                    <div class="card__content">
+                        <h2>Miggle DigiCup</h2>
+                        <p>The Cozy and Focused note-taking system powered by Obsidian</p>
+                        <button onclick="window.location.href='./src/digicup.html'">Learn More</button>
+                    </div>
+                </div>
+                <section class="card" id="about">
+        <h2>About</h2>
+        <p>Miggle is a little Workshop mini-brand sustained and mantained by Miguel V. Mesquita, which has the best principles of this time:</p>
+        <ul>
+            <li>Handmades</li>
+            <li>Eco-friendly Products</li>
+            <li>Customizable Products</li>
+            <li>Analog frindly</li>
+        </ul>
+    </section>
+    <section class="card" id="contact">
+        <h2>Contact</h2>
+        <p>You will not contact the brand, you will contact me, Miguel, because there's no email adress only for Miggle! So don't spam me or anything, please</p>
+        <p>Contact Now<a href="mailto:migsufrem@gmail.com"></a></p>
+        <p>Or you can contact me on <a href="https://t.me/sufremoak" target="_blank">Telegram</a></p>
+    </section>
+            </div>
+        </div>
+    </header>
+    
+    <footer>
+        <p>&copy; 2025 Miggle. FreeDom rights reserved.</p>
+        <div class="socials">
+            <a href="github.com/miggledev" target="_blank">GitHub</a>
+        </div>
+    </footer>
+</body>
+</html>
